@@ -1,0 +1,49 @@
+.controls {
+    display: flex;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .text-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px;
+    box-sizing: border-box;
+  }
+  
+  .text-wrapper #visualize-text {
+    flex-wrap: wrap;
+    font-size: 24px;
+    word-break: break-word;
+  }
+  
+  #visualize-text span {
+    color: gray;
+    transition: 0.1s linear all;
+  }
+  
+  #visualize-text span.longest {
+    color: greenyellow;
+    background: #cccccc;
+  }
+  
+  #visualize-text span.checked {
+    color: red;
+    background: black;
+  }
+  
+  button {
+    margin-bottom: 20px;
+  }
+  
+  #test {
+    width: 100px;
+  }
+  
+  #test img {
+    width: 100%;
+  }
